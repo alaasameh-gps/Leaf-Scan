@@ -1,0 +1,16 @@
+"""Runtime dependencies for the plant disease ML pipeline.
+
+torch / torchvision / pillow / numpy / scikit-learn / matplotlib are already
+present in the local Python 3.12 environment used by this project. Install with:
+
+    py -3.12 -m pip install -r ml/requirements.txt
+"""
+
+torch>=2.0
+torchvision>=0.15
+pillow>=9.0
+numpy>=1.24
+scikit-learn>=1.2
+matplotlib>=3.7
+fastapi>=0.110
+uvicorn>=0.27

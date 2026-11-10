@@ -1,0 +1,50 @@
+node_modules/
+.next/
+dist/
+.env
+.env.local
+/.vscode
+/.DS_Store
+coverage/
+public/uploads/
+uploads/
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+deepseek-ai-dsh-0.1.1-rc.2.tgz
+*.tsbuildinfo
+*.tgz
+
+# Plant disease dataset archive (large, do not commit)
+*.zip
+Data for Identification of Plant Leaf Diseases*
+
+# Plant disease ML: generated data, artifacts and model weights
+ml/data/
+ml/artifacts/
+ml/models/
+ml/runs/
+__pycache__/
+*.pyc
+*.pt
+*.pth
+*.onnx
+
+# Environment files
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
+# Environment files
+.env.*
+!.env.example
+
+# Python virtual environments
+.venv/
+venv/
+env/
